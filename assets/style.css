@@ -52,6 +52,7 @@ header nav ul li:hover {
 }
 
 p {
+    width: 600px;
     font-size: 16px;
 }
 
@@ -85,17 +86,37 @@ p {
 }
 
 .horiseon {
-    background-image: url("./assets/images/HoriseonScreenshot.png");
+    background-image: url("./images/horiseonScreenshot.png");
 }
 
 .pre-work {
-    background-image: url("./assets/images/Pre-WorkScreenshot.png");
+    background-image: url("./images/preworkScreenshot.png");
 }
 
 .skills {
+    margin-left: 20px;
     list-style-type: none;
 }
 
+.contact {
+    margin-left: 20px;
+}
+
 @media screen and (max-width: 768px) {
+    .gallery {  
+        width: 310px; }
+
+    .card1 {
+        width: 300px;
+        height: 300px;
+    }
+    .gallery .card {
+        flex-direction: column;
+        width: 1500px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 576px) {
 
 }
