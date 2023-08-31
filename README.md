@@ -17,7 +17,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 [Gitpages deployment link](https://oddux.github.io/BasicPortfolio/)
 
 ## Page Screenshot:
-[The Horiseon webpage](./ )
+[The Horiseon webpage](./assets/images/portfolioScreenshot.png)
 
 ## Repo link:
 [GitHub Repository Link](https://github.com/Oddux/BasicPortfolio)
