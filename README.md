@@ -1,3 +1,4 @@
+## Requirements:
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
@@ -12,3 +13,11 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
+## Page link:
+[Gitpages deployment link](https://oddux.github.io/BasicPortfolio/)
+
+## Page Screenshot:
+[The Horiseon webpage](./ )
+
+## Repo link:
+[GitHub Repository Link](https://github.com/Oddux/BasicPortfolio)
