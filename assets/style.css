@@ -21,6 +21,7 @@ header {
     color: #ffffff;
     margin-bottom: 10px;
 }
+
 header img {
     width: 100px;
 }
@@ -65,6 +66,8 @@ p {
 
 .cardContainer {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .card1 {
@@ -76,12 +79,10 @@ p {
 }
 
 .gallery .card {
-    flex-direction: row;
     width: 300px;
     height: 300px; 
     border: 2px solid black;
     border-radius: 2px;
-    flex-wrap: wrap;
     margin: 5px 0px;
 }
 
@@ -103,20 +104,41 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+    p {
+        width: 300px;
+        font-size: 16px;
+    }
+
     .gallery {  
-        width: 310px; }
+        width: 310px;
+    }
+
+    .cardContainer {
+        flex-direction: column;
+    }
 
     .card1 {
         width: 300px;
         height: 300px;
     }
-    .gallery .card {
-        flex-direction: column;
-        width: 1500px;
-        height: 150px;
-    }
 }
 
 @media screen and (max-width: 576px) {
+    p {
+        width: 200px;
+        font-size: 16px;
+    }
 
+    .gallery {  
+        width: 210px;
+    }
+
+    .cardContainer {
+        flex-direction: column;
+    }
+
+    .card1 {
+        width: 200px;
+        height: 200px;
+    }
 }
